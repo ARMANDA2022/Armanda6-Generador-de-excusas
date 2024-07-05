@@ -34,6 +34,10 @@ function generateExcuse() {
   document.querySelector("#palabras").innerHTML = fraCompleta;
 }
 
+const boton = document.getElementById("miBoton");
+
+boton.addEventListener("click", function() {});
+
 window.onload = function() {
   generateExcuse();
 };
